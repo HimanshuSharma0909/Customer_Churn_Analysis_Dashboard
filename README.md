@@ -28,7 +28,26 @@ This project analyses subscription behaviour for **200 customers**, of whom **56
 
 ## 🎯 Business Problem
 
-<img width="183" height="150" alt="business-problem" src="https://github.com/user-attachments/assets/7c969e09-a04b-4a64-8e27-479486f41112" />
+The company runs a streaming subscription service where revenue depends entirely on recurring monthly/annual payments. Acquiring a new customer costs **5–7× more** than retaining an existing one — so every avoidable cancellation quietly erodes both current revenue and future growth.
+
+> **The core problem:** churn was being *counted*, not *prevented*. Reporting could answer "how many left last quarter?" but never "who is about to leave, and why?"
+
+**Core question this project answers:**
+> When are customers cancelling, why are they cancelling, and which customers should we save first?
+
+**Stakeholders served:**
+
+| Stakeholder | Need |
+|---|---|
+| 🎧 Retention / CRM team | A daily list of at-risk customers to act on |
+| 💼 Leadership & finance | The revenue impact quantified, to justify retention spend |
+| 🛠️ Product & support | Which experiences (price, content, service) push people out |
+
+**Objectives:**
+1. Quantify overall churn and the revenue/CLTV it destroys
+2. Identify the strongest drivers of churn (contract, plan, price, service quality)
+3. Segment customers by risk so retention effort is spent where it matters
+4. Recommend concrete, prioritised actions to reduce churn
 
 
 ---
@@ -186,6 +205,7 @@ The interactive dashboard (built with **React + Recharts**, styled with Tailwind
 ├── exported_churn_data_expanded.csv        # Cleaned, merged, analysis-ready dataset
 ├── Customer_Churn_Analysis_Report.pdf      # Full business intelligence report
 └── README.md                               # Project documentation (this file)
+└── Live_Dashboard                          # Having a link of interactive dashboard Fully Working
 ```
 
 ---
