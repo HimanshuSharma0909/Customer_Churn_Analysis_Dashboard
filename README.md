@@ -205,7 +205,7 @@ The interactive dashboard (built with **React + Recharts**, styled with Tailwind
 ├── exported_churn_data_expanded.csv        # Cleaned, merged, analysis-ready dataset
 ├── Customer_Churn_Analysis_Report.pdf      # Full business intelligence report
 └── README.md                               # Project documentation (this file)
-└── Live_Dashboard                          # Having a link of interactive dashboard Fully Working
+└── Live_Dashboard_Link                          # Having a link of interactive dashboard Fully Working
 ```
 
 ---
