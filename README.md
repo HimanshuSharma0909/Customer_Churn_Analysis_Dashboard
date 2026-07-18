@@ -1,12 +1,13 @@
 # 📊 Customer Churn Analysis — Streaming Subscription Service
 
-A full end-to-end churn analysis project: **SQL → Python (pandas) → Interactive Dashboard**, built to identify *when, why, and who* is churning for a subscription-based streaming service, and to turn that into concrete retention actions.
+A full end-to-end churn analysis project: **SQL → Python (pandas) → Interactive Dashboard using Claude AI**, built to identify *when, why, and who* is churning for a subscription-based streaming service, and to turn that into concrete retention actions.
 
-*** Go Through it: ***
+  **Go Through it:**
 🔗 **Live Dashboard:** [north-wreath-37949898.figma.site](https://north-wreath-37949898.figma.site/)
 
 <img width="1917" height="926" alt="dashboard-executive-overview" src="https://github.com/user-attachments/assets/28ab544a-6fb3-4b9a-990f-e493e4d62405" />
 
+For More: Click on the link above this dashboard picture and you can interact with live dashboard.
 ---
 
 ## 📌 Overview
@@ -27,23 +28,8 @@ This project analyses subscription behaviour for **200 customers**, of whom **56
 
 ## 🎯 Business Problem
 
-The company runs a streaming subscription service where revenue depends entirely on recurring monthly/annual payments. Acquiring a new customer costs **5–7× more** than retaining an existing one — so every avoidable cancellation quietly erodes both current revenue and future growth.
+<img width="183" height="150" alt="business-problem" src="https://github.com/user-attachments/assets/7c969e09-a04b-4a64-8e27-479486f41112" />
 
-**The core problem:** churn was being *counted*, not *prevented*. Reporting could answer "how many left last quarter?" but never "who is about to leave, and why?"
-
-**Core question this project answers:**
-> When are customers cancelling, why are they cancelling, and which customers should we save first?
-
-**Stakeholders served:**
-- **Retention / CRM team** — needs a daily list of at-risk customers to act on
-- **Leadership & finance** — needs the revenue impact quantified to justify retention spend
-- **Product & support** — needs to know which experiences (price, content, service) push people out
-
-**Objectives:**
-1. Quantify overall churn and the revenue/CLTV it destroys
-2. Identify the strongest drivers of churn (contract, plan, price, service quality)
-3. Segment customers by risk so retention effort is spent where it matters
-4. Recommend concrete, prioritised actions to reduce churn
 
 ---
 
@@ -178,6 +164,16 @@ The interactive dashboard (built with **React + Recharts**, styled with Tailwind
 - Filterable/drillable views for live exploration
 
 👉 **[View the live dashboard here](https://north-wreath-37949898.figma.site/)**
+
+<img width="1917" height="926" alt="dashboard-executive-overview" src="https://github.com/user-attachments/assets/3e60d2dd-e252-46c0-90c6-4dc45220953f" />
+
+<img width="1917" height="927" alt="dashboard-churn-drivers" src="https://github.com/user-attachments/assets/d206eeff-41e3-46c6-b9bc-97c77f0f50d7" />
+
+<img width="1891" height="902" alt="dashboard-customer-segments" src="https://github.com/user-attachments/assets/6d48ccb3-72e2-442d-8680-08d53e236a45" />
+
+<img width="1896" height="907" alt="dashboard-financial-impact" src="https://github.com/user-attachments/assets/378a9c1d-adb9-4f56-a577-306696e78fb3" />
+
+
 
 ---
 
