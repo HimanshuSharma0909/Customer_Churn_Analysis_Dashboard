@@ -5,6 +5,8 @@ A full end-to-end churn analysis project: **SQL → Python (pandas) → Interact
 *** Go Through it: ***
 🔗 **Live Dashboard:** [north-wreath-37949898.figma.site](https://north-wreath-37949898.figma.site/)
 
+<img width="1917" height="926" alt="dashboard-executive-overview" src="https://github.com/user-attachments/assets/28ab544a-6fb3-4b9a-990f-e493e4d62405" />
+
 ---
 
 ## 📌 Overview
